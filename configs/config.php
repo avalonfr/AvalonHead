@@ -3,21 +3,21 @@ global $AoWoWconf;
 
 // -- MaNGOS Database --
 $AoWoWconf['mangos']['host']	 = '127.0.0.1';
-$AoWoWconf['mangos']['user']	 = 'root';
+$AoWoWconf['mangos']['user']	 = '';
 $AoWoWconf['mangos']['pass']	 = '';
-$AoWoWconf['mangos']['db']		 = 'tc2_world';
-$AoWoWconf['mangos']['aowow']	 = 'aowow_'; // AoWoW table prefix
-$AoWoWconf['mangos']['aowow_db'] = 'wowhead'; // AoWoW DB
+$AoWoWconf['mangos']['db']		 = '';
+$AoWoWconf['mangos']['aowow']	 = ''; // AoWoW table prefix
+$AoWoWconf['mangos']['aowow_db'] = ''; // AoWoW DB
 // -- Realmd Database --
 $AoWoWconf['realmd']['host']	= '127.0.0.1';
-$AoWoWconf['realmd']['user']	= 'root';
+$AoWoWconf['realmd']['user']	= '';
 $AoWoWconf['realmd']['pass']	= '';
-$AoWoWconf['realmd']['db']		= 'tc2_auth_dev';
+$AoWoWconf['realmd']['db']		= '';
 // -- Characters Database -- currently unused
 $AoWoWconf['characters']['host']	= '127.0.0.1';
-$AoWoWconf['characters']['user']	= 'root';
+$AoWoWconf['characters']['user']	= '';
 $AoWoWconf['characters']['pass']	= '';
-$AoWoWconf['characters']['db']		= 'tc2_characters';
+$AoWoWconf['characters']['db']		= '';
 // -- Site Configuration --
 // Title of the website
 $AoWoWconf['aowow']['name'] = 'AvalonHead';

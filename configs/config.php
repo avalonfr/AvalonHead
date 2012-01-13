@@ -1,7 +1,7 @@
 <?php
 global $AoWoWconf;
 
-// -- MaNGOS Database --
+// -- Trinity Database --
 $AoWoWconf['mangos']['host']	 = '127.0.0.1';
 $AoWoWconf['mangos']['user']	 = 'root';
 $AoWoWconf['mangos']['pass']	 = '';
